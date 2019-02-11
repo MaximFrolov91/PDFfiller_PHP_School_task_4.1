@@ -3,11 +3,14 @@ if ($argc === 2)
 {
 	$height = $space = $argv[1];
 	$q = 0;
-	for ($i = 0; $i < $height; $i++) {
-	    for ($k = --$space; $k > 0; $k--) {
+	for ($i = 0; $i < $height; $i++)
+	{
+	    for ($k = --$space; $k > 0; $k--)
+	    {
 	        echo '  ';
 	    }
-	    for($j = 0; $j <= $q; $j++) {
+	    for($j = 0; $j <= $q; $j++)
+	    {
 	        echo '* ';
 	    }
 	    $q = $q + 2;
